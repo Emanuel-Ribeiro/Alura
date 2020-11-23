@@ -6,7 +6,7 @@ public class TestaBanco
 		Cliente emanuel = new Cliente();
 		
 		emanuel.nome = "Emanuel Ribeiro";
-		emanuel.cpf = "05319274157";
+		emanuel.cpf = "05314234172";
 		emanuel.profissao = "Programador";
 		
 		Conta contaDoEmanuel = new Conta();
