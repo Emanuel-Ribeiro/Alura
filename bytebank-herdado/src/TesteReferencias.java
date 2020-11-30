@@ -15,14 +15,9 @@ public class TesteReferencias
     d1.setNome("jessica");
     d1.setSalario(1500);
 
-    Funcionario f1 = new Funcionario();
-    f1.setNome("thiago");
-    f1.setSalario(2000);
-
     ControleBonificacao controle = new ControleBonificacao();
     controle.registra(g1);
     controle.registra(e1);
-    controle.registra(f1);
     controle.registra(d1);
 
     System.out.println("A bonificação é: " + controle.getSoma());
